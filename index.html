@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joshua Babatunde | Software Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">JB</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link">Home</a></li>
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#skills"   class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <section id="home" class="hero-wrapper">
+    <div class="hero-container">
+      <div class="hero-content">
+        <p  class="hero-greeting hero-anim" style="--delay:0ms">Hello, I'm</p>
+        <h1 class="hero-name    hero-anim" style="--delay:80ms">Joshua Babatunde</h1>
+        <h2 class="hero-title   hero-anim" style="--delay:160ms">Software Engineer</h2>
+        <div class="hero-actions hero-anim" style="--delay:380ms">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact"  class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-glow"></div>
+        <div class="hero-grid"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-grid">
+        <div class="about-avatar reveal" aria-hidden="true">
+          <div class="avatar-ring">
+            <div class="avatar-placeholder">JB</div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p>
+            I'm Joshua Babatunde. I studied Electrical and Electronics Engineering at the University of Lagos. 
+            However, I have always had a deep interest in technology, and to satisfy this curiosity, I took the initiative 
+            to develop myself further in this field by also pursuing a degree in Computer Science.
+          </p>
+          <p>
+            I approach every problem uniquely and enjoy working collaboratively on projects. I'm particularly interested in 
+            areas such as Distributed Systems, Databases, Operating Systems, and Artificial Intelligence—though my curiosity 
+            isn’t limited to just these.
+          </p>
+          <p>
+              Outside of work, I enjoy listening to music, reading about distributed systems, and exploring new tools 
+  (it’s a fast-moving space these days 🙂).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Skills</h2>
+      <p class="section-sub reveal">
+        I primarily code in Java and Python but i am very comfortable in picking up new technologies quickly based on business requirement.
+        Some of the backend technologies I work with regularly are highlighted below.
+      </p>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <svg class="skill-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <h3 class="skill-category-title">Languages</h3>
+          </div>
+          <div class="badges">
+            <span class="badge">Java</span>
+            <span class="badge">Python</span>
+            <span class="badge">C#</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <svg class="skill-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            <h3 class="skill-category-title">Tools & Technologies</h3>
+          </div>
+          <div class="badges">
+            <span class="badge">Kafka</span>
+            <span class="badge">RabbitMQ</span>
+            <span class="badge">PostgreSQL</span>
+            <span class="badge">Fast API</span>
+            <span class="badge">Docker</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <svg class="skill-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+            <h3 class="skill-category-title">Misc</h3>
+          </div>
+          <div class="badges">
+            <span class="badge">Git</span>
+            <span class="badge">Data Structures & Algorithms</span>
+            <span class="badge">Distributed Systems</span>
+            <span class="badge">Backend Engineering</span>
+            <span class="badge">Operating Systems</span>
+            <span class="badge">CI/CD</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <p class="section-sub reveal">I've listed some stuff I've worked on in the past. But you are free to check my github profile for more!</p>
+
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <div class="project-links">
+              <a href="https://github.com/Ayodxji/Triage-Application" class="project-link" aria-label="View source on GitHub" target="_blank" rel="noopener">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <a href="https://triage-application.vercel.app/" class="project-link" aria-label="View project" target="_blank" rel="noopener">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Triage Pro</h3>
+          <p class="project-desc">
+            A triage system used to schedule patient visits for district nurses.
+            It uses a custom greedy algorithm driven by a heuristic cost function to optimise visit assignments across multiple factors,
+            producing schedules that prioritise the most critical patients while minimising unnecessary cost.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">REST API</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">Greedy Algorithm</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <div class="project-links">
+              <a href="#" class="project-link" aria-label="View source on GitHub">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <a href="#" class="project-link" aria-label="View project">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Scheduling Triage Application</h3>
+          <p class="project-desc">
+            Priority-based scheduling engine that ingests task requests, applies
+            configurable triage rules, and manages real-time queue assignment
+            via a REST interface.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">REST API</span>
+            <span class="tech-tag">PostgreSQL</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <div class="project-links">
+              <a href="#" class="project-link" aria-label="View source on GitHub">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <a href="#" class="project-link" aria-label="View project">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Inventory Analytics API</h3>
+          <p class="project-desc">
+            Microservice that aggregates inventory events, calculates stock-level
+            metrics, and surfaces paginated reports. Secured with JWT-based
+            authentication.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">REST API</span>
+            <span class="tech-tag">JWT</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="contact-wrapper reveal">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-lead">
+          I'm open to backend engineering roles and interesting collaborations.
+          Whether you have a question, an opportunity, or just want to connect —
+          feel free to reach out.
+        </p>
+        <div class="contact-links">
+
+          <a href="mailto:joshuababatunde758@gmail.com" class="contact-card">
+            <div class="contact-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact-card-body">
+              <span class="contact-card-label">Email</span>
+              <span class="contact-card-value">joshuababatunde758@gmail.com</span>
+            </div>
+            <svg class="contact-card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+
+          <a href="https://github.com/Ayodxji" class="contact-card">
+            <div class="contact-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </div>
+            <div class="contact-card-body">
+              <span class="contact-card-label">GitHub</span>
+              <span class="contact-card-value">github.com/Ayodxji</span>
+            </div>
+            <svg class="contact-card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+
+          <a href="https://www.linkedin.com/in/joshua-babatunde/" class="contact-card">
+            <div class="contact-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div class="contact-card-body">
+              <span class="contact-card-label">LinkedIn</span>
+              <span class="contact-card-value">linkedin.com/in/joshua-babatunde</span>
+            </div>
+            <svg class="contact-card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        &copy; <span id="year"></span> Joshua Babatunde
+        <span class="footer-sep" aria-hidden="true">&middot;</span>
+        Built with HTML, CSS &amp; JavaScript
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
