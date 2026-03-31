@@ -332,14 +332,7 @@ ul { list-style: none; }
 }
 
 .hero-glow {
-  position: absolute;
-  top: -120px;
-  right: -80px;
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle at center, rgba(59,130,246,0.09) 0%, transparent 65%);
-  border-radius: 50%;
-  filter: blur(60px);
+  display: none;
 }
 
 .hero-grid {
@@ -373,7 +366,7 @@ ul { list-style: none; }
   height: 164px;
   border-radius: 50%;
   padding: 3px;
-  background: linear-gradient(135deg, var(--accent) 0%, transparent 60%);
+  background: var(--border);
 }
 
 .avatar-placeholder {
@@ -445,7 +438,6 @@ ul { list-style: none; }
 .skill-category {
   background-color: var(--bg-card);
   border: 1px solid var(--border);
-  border-top: 2px solid var(--accent);
   border-radius: var(--radius-lg);
   padding: 28px 26px 26px;
   transition: border-color var(--t), transform var(--t), box-shadow var(--t);
@@ -454,7 +446,6 @@ ul { list-style: none; }
 .skill-category:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
-  border-color: var(--accent);
 }
 
 .skill-category-header {
@@ -515,14 +506,7 @@ ul { list-style: none; }
 }
 
 .featured-project::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background: linear-gradient(180deg, var(--accent) 0%, rgba(59,130,246,0.2) 100%);
-  border-radius: 4px 0 0 4px;
+  display: none;
 }
 
 .featured-project:hover {
